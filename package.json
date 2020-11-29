@@ -1,0 +1,26 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./build/server.js",
+    "ts": "tsc -w",
+   "dev": "nodemon ./build/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.9",
+    "@types/mongoose": "^5.10.1",
+    "@types/morgan": "^1.9.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.18",
+    "morgan": "^1.10.0"
+  }
+}
